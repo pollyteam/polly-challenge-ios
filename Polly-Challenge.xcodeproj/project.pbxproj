@@ -18,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C42C1B71F75C5DE00B78ECC /* ProximaNova-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Semibold.otf"; sourceTree = "<group>"; };
 		0C9AE0BD1F75A8CD00917E44 /* Polly-Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Polly-Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C9AE0C01F75A8CD00917E44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0C9AE0C21F75A8CD00917E44 /* PLYHomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PLYHomeController.swift; sourceTree = "<group>"; };
@@ -78,6 +79,7 @@
 		0C9AE0D31F75A8DF00917E44 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0C42C1B71F75C5DE00B78ECC /* ProximaNova-Semibold.otf */,
 				0C9AE0D51F75AAAE00917E44 /* Default-568h@2x.png */,
 				0C9AE0C71F75A8CD00917E44 /* Assets.xcassets */,
 				0C9AE0C91F75A8CD00917E44 /* LaunchScreen.storyboard */,
