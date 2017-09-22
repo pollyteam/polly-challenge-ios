@@ -18,7 +18,7 @@ Thanks for your interest in joining Polly! For the next step of the interview pr
 
 ## Notes
 
-Try to make the design & UX as similar as possible to the experience in our mobile app (no need to implement the share controller, screenshot detection, delete functionality, or snapchat deep-linking). All image assets such as icons can be found in the Resources folder.
+Try to make the design & UX as similar as possible to the experience in our mobile app (no need to implement the share controller, screenshot detection, delete functionality, or snapchat deep-linking). All assets such as icons and fonts can be found in the Resources folder. The font is *"ProximaNova-Semibold.otf"*.
 
 Please timebox yourself to only **1 hour** on this project.
 
