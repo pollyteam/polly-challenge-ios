@@ -4,7 +4,7 @@
 
 ## Introduction
 
-Thanks for your interest in joining Polly! For the next step of the interview process, we'd like for you to participate in a small project. Your task is to replicate the results controller in our [mobile app](https://itunes.apple.com/app/apple-store/id1270872745?mt=8). It should look something like this:
+Thanks for your interest in joining Polly! For the next step of the interview process, we'd like for you to participate in a small project. Your task is to replicate the results controller in our [mobile app](https://itunes.apple.com/app/apple-store/id1270872745?mt=8). It should look something like [this](https://i.imgur.com/DfJfvPo.png).
 
 ## Specifications
 
