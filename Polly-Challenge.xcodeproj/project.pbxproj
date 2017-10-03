@@ -7,32 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C9AE0C11F75A8CD00917E44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9AE0C01F75A8CD00917E44 /* AppDelegate.swift */; };
-		0C9AE0C31F75A8CD00917E44 /* PLYHomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9AE0C21F75A8CD00917E44 /* PLYHomeController.swift */; };
-		0C9AE0C81F75A8CD00917E44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C9AE0C71F75A8CD00917E44 /* Assets.xcassets */; };
-		0C9AE0CB1F75A8CD00917E44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C9AE0C91F75A8CD00917E44 /* LaunchScreen.storyboard */; };
-		0C9AE0D61F75AAAF00917E44 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C9AE0D51F75AAAE00917E44 /* Default-568h@2x.png */; };
-		0C9AE0D81F75ACC100917E44 /* PLYResultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9AE0D71F75ACC100917E44 /* PLYResultsController.swift */; };
-		0C9AE0DB1F75ADB100917E44 /* PLYPoll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9AE0DA1F75ADB100917E44 /* PLYPoll.swift */; };
-		0C9AE0DD1F75AE5300917E44 /* PLYOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9AE0DC1F75AE5300917E44 /* PLYOption.swift */; };
+		0C80024C1F8416D8009C52DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C80024B1F8416D8009C52DD /* AppDelegate.swift */; };
+		0C80024E1F8416D8009C52DD /* PLYController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C80024D1F8416D8009C52DD /* PLYController.swift */; };
+		0C8002531F8416D8009C52DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C8002521F8416D8009C52DD /* Assets.xcassets */; };
+		0C8002561F8416D8009C52DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C8002541F8416D8009C52DD /* LaunchScreen.storyboard */; };
+		0C8002621F84182C009C52DD /* PLYUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8002611F84182C009C52DD /* PLYUser.swift */; };
+		0C8002651F842515009C52DD /* PLYFriendsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8002641F842515009C52DD /* PLYFriendsController.swift */; };
+		0C8002681F843472009C52DD /* PLYManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8002671F843472009C52DD /* PLYManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0C42C1B71F75C5DE00B78ECC /* ProximaNova-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Semibold.otf"; sourceTree = "<group>"; };
-		0C9AE0BD1F75A8CD00917E44 /* Polly-Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Polly-Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0C9AE0C01F75A8CD00917E44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0C9AE0C21F75A8CD00917E44 /* PLYHomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PLYHomeController.swift; sourceTree = "<group>"; };
-		0C9AE0C71F75A8CD00917E44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0C9AE0CA1F75A8CD00917E44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		0C9AE0CC1F75A8CD00917E44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
-		0C9AE0D51F75AAAE00917E44 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		0C9AE0D71F75ACC100917E44 /* PLYResultsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PLYResultsController.swift; sourceTree = "<group>"; };
-		0C9AE0DA1F75ADB100917E44 /* PLYPoll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PLYPoll.swift; sourceTree = "<group>"; };
-		0C9AE0DC1F75AE5300917E44 /* PLYOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PLYOption.swift; sourceTree = "<group>"; };
+		0C8002481F8416D8009C52DD /* polly-challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "polly-challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C80024B1F8416D8009C52DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0C80024D1F8416D8009C52DD /* PLYController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PLYController.swift; sourceTree = "<group>"; };
+		0C8002521F8416D8009C52DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0C8002551F8416D8009C52DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0C8002611F84182C009C52DD /* PLYUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PLYUser.swift; sourceTree = "<group>"; };
+		0C8002631F8420F6009C52DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		0C8002641F842515009C52DD /* PLYFriendsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PLYFriendsController.swift; sourceTree = "<group>"; };
+		0C8002671F843472009C52DD /* PLYManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PLYManager.swift; sourceTree = "<group>"; };
+		0C8002691F843819009C52DD /* ProximaNova-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Semibold.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0C9AE0BA1F75A8CD00917E44 /* Frameworks */ = {
+		0C8002451F8416D8009C52DD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,116 +40,123 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0C9AE0B41F75A8CD00917E44 = {
+		0C80023F1F8416D8009C52DD = {
 			isa = PBXGroup;
 			children = (
-				0C9AE0BF1F75A8CD00917E44 /* Polly-Challenge */,
-				0C9AE0BE1F75A8CD00917E44 /* Products */,
+				0C80024A1F8416D8009C52DD /* polly-challenge */,
+				0C8002491F8416D8009C52DD /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		0C9AE0BE1F75A8CD00917E44 /* Products */ = {
+		0C8002491F8416D8009C52DD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0C9AE0BD1F75A8CD00917E44 /* Polly-Challenge.app */,
+				0C8002481F8416D8009C52DD /* polly-challenge.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0C9AE0BF1F75A8CD00917E44 /* Polly-Challenge */ = {
+		0C80024A1F8416D8009C52DD /* polly-challenge */ = {
 			isa = PBXGroup;
 			children = (
-				0C9AE0D71F75ACC100917E44 /* PLYResultsController.swift */,
-				0C9AE0DE1F75B60600917E44 /* Etc */,
-				0C9AE0D31F75A8DF00917E44 /* Resources */,
+				0C80026A1F84385F009C52DD /* Your Code ↙️ */,
+				0C80025F1F841806009C52DD /* Boilerplate */,
+				0C80025E1F8416EF009C52DD /* Resources */,
 			);
-			path = "Polly-Challenge";
+			path = "polly-challenge";
 			sourceTree = "<group>";
 		};
-		0C9AE0D21F75A8D600917E44 /* Controllers */ = {
+		0C80025D1F8416E0009C52DD /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				0C9AE0C21F75A8CD00917E44 /* PLYHomeController.swift */,
+				0C80024D1F8416D8009C52DD /* PLYController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
 		};
-		0C9AE0D31F75A8DF00917E44 /* Resources */ = {
+		0C80025E1F8416EF009C52DD /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				0C42C1B71F75C5DE00B78ECC /* ProximaNova-Semibold.otf */,
-				0C9AE0D51F75AAAE00917E44 /* Default-568h@2x.png */,
-				0C9AE0C71F75A8CD00917E44 /* Assets.xcassets */,
-				0C9AE0C91F75A8CD00917E44 /* LaunchScreen.storyboard */,
-				0C9AE0CC1F75A8CD00917E44 /* Info.plist */,
+				0C8002691F843819009C52DD /* ProximaNova-Semibold.otf */,
+				0C8002521F8416D8009C52DD /* Assets.xcassets */,
+				0C8002541F8416D8009C52DD /* LaunchScreen.storyboard */,
+				0C8002631F8420F6009C52DD /* Info.plist */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		0C9AE0D41F75A8ED00917E44 /* Main */ = {
+		0C80025F1F841806009C52DD /* Boilerplate */ = {
 			isa = PBXGroup;
 			children = (
-				0C9AE0C01F75A8CD00917E44 /* AppDelegate.swift */,
+				0C80024B1F8416D8009C52DD /* AppDelegate.swift */,
+				0C8002661F843462009C52DD /* Managers */,
+				0C8002601F84180D009C52DD /* Models */,
+				0C80025D1F8416E0009C52DD /* Controllers */,
 			);
-			path = Main;
+			path = Boilerplate;
 			sourceTree = "<group>";
 		};
-		0C9AE0D91F75AD9A00917E44 /* Models */ = {
+		0C8002601F84180D009C52DD /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				0C9AE0DA1F75ADB100917E44 /* PLYPoll.swift */,
-				0C9AE0DC1F75AE5300917E44 /* PLYOption.swift */,
+				0C8002611F84182C009C52DD /* PLYUser.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
 		};
-		0C9AE0DE1F75B60600917E44 /* Etc */ = {
+		0C8002661F843462009C52DD /* Managers */ = {
 			isa = PBXGroup;
 			children = (
-				0C9AE0D41F75A8ED00917E44 /* Main */,
-				0C9AE0D91F75AD9A00917E44 /* Models */,
-				0C9AE0D21F75A8D600917E44 /* Controllers */,
+				0C8002671F843472009C52DD /* PLYManager.swift */,
 			);
-			path = Etc;
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		0C80026A1F84385F009C52DD /* Your Code ↙️ */ = {
+			isa = PBXGroup;
+			children = (
+				0C8002641F842515009C52DD /* PLYFriendsController.swift */,
+			);
+			path = "Your Code ↙️";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0C9AE0BC1F75A8CD00917E44 /* Polly-Challenge */ = {
+		0C8002471F8416D8009C52DD /* polly-challenge */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0C9AE0CF1F75A8CD00917E44 /* Build configuration list for PBXNativeTarget "Polly-Challenge" */;
+			buildConfigurationList = 0C80025A1F8416D8009C52DD /* Build configuration list for PBXNativeTarget "polly-challenge" */;
 			buildPhases = (
-				0C9AE0B91F75A8CD00917E44 /* Sources */,
-				0C9AE0BA1F75A8CD00917E44 /* Frameworks */,
-				0C9AE0BB1F75A8CD00917E44 /* Resources */,
+				0C8002441F8416D8009C52DD /* Sources */,
+				0C8002451F8416D8009C52DD /* Frameworks */,
+				0C8002461F8416D8009C52DD /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Polly-Challenge";
-			productName = "Polly-Challenge";
-			productReference = 0C9AE0BD1F75A8CD00917E44 /* Polly-Challenge.app */;
+			name = "polly-challenge";
+			productName = "polly-challenge";
+			productReference = 0C8002481F8416D8009C52DD /* polly-challenge.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		0C9AE0B51F75A8CD00917E44 /* Project object */ = {
+		0C8002401F8416D8009C52DD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0900;
 				LastUpgradeCheck = 0900;
-				ORGANIZATIONNAME = Polly;
+				ORGANIZATIONNAME = "Polly Inc";
 				TargetAttributes = {
-					0C9AE0BC1F75A8CD00917E44 = {
+					0C8002471F8416D8009C52DD = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 0C9AE0B81F75A8CD00917E44 /* Build configuration list for PBXProject "Polly-Challenge" */;
+			buildConfigurationList = 0C8002431F8416D8009C52DD /* Build configuration list for PBXProject "polly-challenge" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -159,49 +164,48 @@
 				en,
 				Base,
 			);
-			mainGroup = 0C9AE0B41F75A8CD00917E44;
-			productRefGroup = 0C9AE0BE1F75A8CD00917E44 /* Products */;
+			mainGroup = 0C80023F1F8416D8009C52DD;
+			productRefGroup = 0C8002491F8416D8009C52DD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0C9AE0BC1F75A8CD00917E44 /* Polly-Challenge */,
+				0C8002471F8416D8009C52DD /* polly-challenge */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0C9AE0BB1F75A8CD00917E44 /* Resources */ = {
+		0C8002461F8416D8009C52DD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C9AE0CB1F75A8CD00917E44 /* LaunchScreen.storyboard in Resources */,
-				0C9AE0D61F75AAAF00917E44 /* Default-568h@2x.png in Resources */,
-				0C9AE0C81F75A8CD00917E44 /* Assets.xcassets in Resources */,
+				0C8002561F8416D8009C52DD /* LaunchScreen.storyboard in Resources */,
+				0C8002531F8416D8009C52DD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0C9AE0B91F75A8CD00917E44 /* Sources */ = {
+		0C8002441F8416D8009C52DD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C9AE0DD1F75AE5300917E44 /* PLYOption.swift in Sources */,
-				0C9AE0DB1F75ADB100917E44 /* PLYPoll.swift in Sources */,
-				0C9AE0D81F75ACC100917E44 /* PLYResultsController.swift in Sources */,
-				0C9AE0C31F75A8CD00917E44 /* PLYHomeController.swift in Sources */,
-				0C9AE0C11F75A8CD00917E44 /* AppDelegate.swift in Sources */,
+				0C8002621F84182C009C52DD /* PLYUser.swift in Sources */,
+				0C8002651F842515009C52DD /* PLYFriendsController.swift in Sources */,
+				0C80024E1F8416D8009C52DD /* PLYController.swift in Sources */,
+				0C80024C1F8416D8009C52DD /* AppDelegate.swift in Sources */,
+				0C8002681F843472009C52DD /* PLYManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0C9AE0C91F75A8CD00917E44 /* LaunchScreen.storyboard */ = {
+		0C8002541F8416D8009C52DD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0C9AE0CA1F75A8CD00917E44 /* Base */,
+				0C8002551F8416D8009C52DD /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -209,7 +213,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		0C9AE0CD1F75A8CD00917E44 /* Debug */ = {
+		0C8002581F8416D8009C52DD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -266,7 +270,7 @@
 			};
 			name = Debug;
 		};
-		0C9AE0CE1F75A8CD00917E44 /* Release */ = {
+		0C8002591F8416D8009C52DD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -316,58 +320,58 @@
 			};
 			name = Release;
 		};
-		0C9AE0D01F75A8CD00917E44 /* Debug */ = {
+		0C80025B1F8416D8009C52DD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6UK2398W3Z;
-				INFOPLIST_FILE = "Polly-Challenge/Info.plist";
+				DEVELOPMENT_TEAM = 2WQRYNZ6PP;
+				INFOPLIST_FILE = "polly-challenge/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.pollyinc.Polly-Challenge";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pollyinc.polly-challenge";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		0C9AE0D11F75A8CD00917E44 /* Release */ = {
+		0C80025C1F8416D8009C52DD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6UK2398W3Z;
-				INFOPLIST_FILE = "Polly-Challenge/Info.plist";
+				DEVELOPMENT_TEAM = 2WQRYNZ6PP;
+				INFOPLIST_FILE = "polly-challenge/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.pollyinc.Polly-Challenge";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pollyinc.polly-challenge";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0C9AE0B81F75A8CD00917E44 /* Build configuration list for PBXProject "Polly-Challenge" */ = {
+		0C8002431F8416D8009C52DD /* Build configuration list for PBXProject "polly-challenge" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0C9AE0CD1F75A8CD00917E44 /* Debug */,
-				0C9AE0CE1F75A8CD00917E44 /* Release */,
+				0C8002581F8416D8009C52DD /* Debug */,
+				0C8002591F8416D8009C52DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0C9AE0CF1F75A8CD00917E44 /* Build configuration list for PBXNativeTarget "Polly-Challenge" */ = {
+		0C80025A1F8416D8009C52DD /* Build configuration list for PBXNativeTarget "polly-challenge" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0C9AE0D01F75A8CD00917E44 /* Debug */,
-				0C9AE0D11F75A8CD00917E44 /* Release */,
+				0C80025B1F8416D8009C52DD /* Debug */,
+				0C80025C1F8416D8009C52DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 0C9AE0B51F75A8CD00917E44 /* Project object */;
+	rootObject = 0C8002401F8416D8009C52DD /* Project object */;
 }
