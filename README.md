@@ -8,9 +8,9 @@ Thanks for your interest in joining Polly! For the next step of the interview pr
 
 ## Specifications
 
-☑️ Each section should be have its corners rounded to 12.0px. 
+☑️ Each section should be have its corners rounded to 12.0px.  
 ☑️ Each section should have a shadow with 5% opacity, (0, 4) offset, 10.0 radius, and #000000.  
-☑️ The separator should be half of a pixel in height (based on device scale).  
+☑️ The separator should be half of a pixel in height (based on device scale).   
 ☑️ The left & right padding of the section title should be 8px.  
 ☑️ Your implementation should handle certain edge cases including (variable number of users per section, and empty sections).  
 
