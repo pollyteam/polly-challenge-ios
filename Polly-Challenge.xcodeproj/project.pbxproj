@@ -14,19 +14,23 @@
 		0C8002621F84182C009C52DD /* PLYUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8002611F84182C009C52DD /* PLYUser.swift */; };
 		0C8002651F842515009C52DD /* PLYFriendsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8002641F842515009C52DD /* PLYFriendsController.swift */; };
 		0C8002681F843472009C52DD /* PLYManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8002671F843472009C52DD /* PLYManager.swift */; };
+		8526C6D908CD2E50DA733AFB /* Pods_polly_challenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FDA1BDF321D9D23ED0BD2F8 /* Pods_polly_challenge.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0C8002481F8416D8009C52DD /* polly-challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "polly-challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C80024B1F8416D8009C52DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0C80024D1F8416D8009C52DD /* PLYController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PLYController.swift; sourceTree = "<group>"; };
-		0C8002521F8416D8009C52DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0C8002521F8416D8009C52DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../Polly-Challenge/Assets.xcassets"; sourceTree = "<group>"; };
 		0C8002551F8416D8009C52DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C8002611F84182C009C52DD /* PLYUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PLYUser.swift; sourceTree = "<group>"; };
 		0C8002631F8420F6009C52DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
 		0C8002641F842515009C52DD /* PLYFriendsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PLYFriendsController.swift; sourceTree = "<group>"; };
 		0C8002671F843472009C52DD /* PLYManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PLYManager.swift; sourceTree = "<group>"; };
-		0C8002691F843819009C52DD /* ProximaNova-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Semibold.otf"; sourceTree = "<group>"; };
+		0C8002691F843819009C52DD /* ProximaNova-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ProximaNova-Semibold.otf"; path = "../../Polly-Challenge/ProximaNova-Semibold.otf"; sourceTree = "<group>"; };
+		6DA9136D462B37A283CB5BD8 /* Pods-polly-challenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-polly-challenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-polly-challenge/Pods-polly-challenge.debug.xcconfig"; sourceTree = "<group>"; };
+		7FDA1BDF321D9D23ED0BD2F8 /* Pods_polly_challenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_polly_challenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF845047F8ECA59DE60633CF /* Pods-polly-challenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-polly-challenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-polly-challenge/Pods-polly-challenge.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,17 +38,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8526C6D908CD2E50DA733AFB /* Pods_polly_challenge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		017F6C48DAB1B2B8FD482FDA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7FDA1BDF321D9D23ED0BD2F8 /* Pods_polly_challenge.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		0C80023F1F8416D8009C52DD = {
 			isa = PBXGroup;
 			children = (
 				0C80024A1F8416D8009C52DD /* polly-challenge */,
 				0C8002491F8416D8009C52DD /* Products */,
+				3AD2CEFB416F0A385E42284A /* Pods */,
+				017F6C48DAB1B2B8FD482FDA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -120,6 +135,15 @@
 			path = "Your Code ↙️";
 			sourceTree = "<group>";
 		};
+		3AD2CEFB416F0A385E42284A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6DA9136D462B37A283CB5BD8 /* Pods-polly-challenge.debug.xcconfig */,
+				AF845047F8ECA59DE60633CF /* Pods-polly-challenge.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -127,9 +151,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0C80025A1F8416D8009C52DD /* Build configuration list for PBXNativeTarget "polly-challenge" */;
 			buildPhases = (
+				720DD53B0B9448795225BBA3 /* [CP] Check Pods Manifest.lock */,
 				0C8002441F8416D8009C52DD /* Sources */,
 				0C8002451F8416D8009C52DD /* Frameworks */,
 				0C8002461F8416D8009C52DD /* Resources */,
+				A1670CD409AD27F8E60DC87B /* [CP] Embed Pods Frameworks */,
+				B03C8B2798CD882033093675 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -156,7 +183,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0C8002431F8416D8009C52DD /* Build configuration list for PBXProject "polly-challenge" */;
+			buildConfigurationList = 0C8002431F8416D8009C52DD /* Build configuration list for PBXProject "Polly-Challenge" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -186,6 +213,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		720DD53B0B9448795225BBA3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-polly-challenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1670CD409AD27F8E60DC87B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-polly-challenge/Pods-polly-challenge-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-polly-challenge/Pods-polly-challenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B03C8B2798CD882033093675 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-polly-challenge/Pods-polly-challenge-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0C8002441F8416D8009C52DD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -208,6 +289,7 @@
 				0C8002551F8416D8009C52DD /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = "../../Polly-Challenge";
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -322,6 +404,7 @@
 		};
 		0C80025B1F8416D8009C52DD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DA9136D462B37A283CB5BD8 /* Pods-polly-challenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -337,6 +420,7 @@
 		};
 		0C80025C1F8416D8009C52DD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF845047F8ECA59DE60633CF /* Pods-polly-challenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -353,7 +437,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0C8002431F8416D8009C52DD /* Build configuration list for PBXProject "polly-challenge" */ = {
+		0C8002431F8416D8009C52DD /* Build configuration list for PBXProject "Polly-Challenge" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0C8002581F8416D8009C52DD /* Debug */,

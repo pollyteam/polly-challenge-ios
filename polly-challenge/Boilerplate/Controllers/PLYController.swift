@@ -87,6 +87,7 @@ class PLYController: UIViewController {
         // Setup
         navigationView = UIImageView()
         navigationView.image = UIImage(named: "FauxBar")
+        navigationView.backgroundColor = UIColor.white
         navigationView.frame = CGRect(x: 0, y: 0, width: viewSize.width - 16, height: 53)
         navigationView.contentMode = .scaleAspectFit
         containerView.addSubview(navigationView)
