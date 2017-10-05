@@ -16,6 +16,8 @@ Thanks for your interest in joining Polly! For the next step of the interview pr
 
 ## Notes
 
+Please do **NOT** use Storyboard or .xib files. Instead, we'd like you to implement views programatically, and to use [SnapKit](http://snapkit.io) for layout out views. We've attached it as a pod inside the project. If you're not familar with pods, you can learn more [here](http://cocoapods.org).
+
 No need to implement the invite friend functionality, add friend functionality, or deal with the navigation bar. All assets such as icons and fonts can be found in the Resources folder. The font is *"ProximaNova-Semibold.otf"*. 
 
 Please timebox yourself to only **3-4 hours** on this project.
