@@ -14,6 +14,7 @@ Thanks for your interest in joining Polly! For the next step of the interview pr
 ☑️ The separator should be half of a pixel in height (based on device scale).   
 ☑️ The left & right padding of the section title should be 8px.  
 ☑️ Your implementation should handle certain edge cases including (variable number of users per section, and empty sections).  
+☑️ A big part of this challenge is how well you can implement the UI details without being given the exact values of every inset, color, corner, etc. Try your best to precisely mimic the UI in the photo above.
 
 ## Notes
 
